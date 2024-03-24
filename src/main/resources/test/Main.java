@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+
+        int a = in.nextInt();
+        int b = in.nextInt();
+
+//        int a = Integer.parseInt(args[0]);
+//        int b = Integer.parseInt(args[1]);
+        System.out.println((a + b));
+    }
+}
